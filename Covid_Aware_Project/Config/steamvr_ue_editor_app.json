@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.covid_aware_project-13942748.ue4editor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "C:/Users/Joe/Documents/Unreal Projects/Covid_Aware_Project/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "Covid_Aware_Project-13942748 [UE Editor]"
+				}
+			}
+		}
+	]
+}
