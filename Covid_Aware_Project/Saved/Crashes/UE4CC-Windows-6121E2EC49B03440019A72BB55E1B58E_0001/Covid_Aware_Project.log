@@ -1,0 +1,1295 @@
+﻿Log file open, 12/24/20 11:29:52
+LogInit: Display: Running engine for game: Covid_Aware_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.392091
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce GTX 1660 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Swiftyyy -epicuserid=449c6157b0c34fa49c6f461be790bb24 -epiclocale=en
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.24-11.29.53:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:091][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:095][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.24-11.29.53:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.24-11.29.53:096][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.24-11.29.53:096][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.24-11.29.53:096][  0]LogHAL: Display: Platform has ~ 16 GB [17108541440 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.24-11.29.53:096][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.24-11.29.53:096][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Scalability.ini]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.24-11.29.53:097][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.24-11.29.53:098][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Config/Windows/Engine.ini]
+[2020.12.24-11.29.53:098][  0]LogInit: Computer: DESKTOP-P6E1P29
+[2020.12.24-11.29.53:098][  0]LogInit: User: SamSwift
+[2020.12.24-11.29.53:098][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.12.24-11.29.53:098][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.24-11.29.53:098][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.12.24-11.29.53:098][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.24-11.29.53:098][  0]LogMemory: Process Physical Memory: 116.23 MB used, 116.24 MB peak
+[2020.12.24-11.29.53:098][  0]LogMemory: Process Virtual Memory: 98.05 MB used, 98.05 MB peak
+[2020.12.24-11.29.53:098][  0]LogMemory: Physical Memory: 5052.34 MB used,  11263.64 MB free, 16315.98 MB total
+[2020.12.24-11.29.53:098][  0]LogMemory: Virtual Memory: 5184.91 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2020.12.24-11.29.53:102][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.24-11.29.53:141][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.24-11.29.53:142][  0]LogInit: Using OS detected language (en-GB).
+[2020.12.24-11.29.53:142][  0]LogInit: Using OS detected locale (en-GB).
+[2020.12.24-11.29.53:143][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.12.24-11.29.53:277][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.24-11.29.53:300][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.24-11.29.53:300][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.24-11.29.53:461][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2020.12.24-11.29.53:461][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.24-11.29.53:461][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.24-11.29.53:461][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.24-11.29.53:518][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.12.24-11.29.53:518][  0]LogD3D11RHI:       5991/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.12.24-11.29.53:520][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.24-11.29.53:520][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.24-11.29.53:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.24-11.29.53:525][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.24-11.29.53:525][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.24-11.29.53:525][  0]LogWindows: EnumDisplayDevices:
+[2020.12.24-11.29.53:525][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2020.12.24-11.29.53:526][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:1)
+[2020.12.24-11.29.53:526][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.12.24-11.29.53:526][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.12.24-11.29.53:526][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.12.24-11.29.53:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.12.24-11.29.53:526][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.12.24-11.29.53:526][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.12.24-11.29.53:526][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.12.24-11.29.53:567][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.24-11.29.53:567][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.24-11.29.53:567][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.24-11.29.53:569][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061086).
+[2020.12.24-11.29.53:581][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.24-11.29.53:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.24-11.29.53:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.24-11.29.53:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.24-11.29.53:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.24-11.29.53:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.24-11.29.53:854][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.24-11.29.53:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.24-11.29.53:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.24-11.29.53:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.24-11.29.53:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.24-11.29.53:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.24-11.29.53:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.24-11.29.53:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.24-11.29.53:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.24-11.29.53:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.24-11.29.53:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.24-11.29.53:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.24-11.29.53:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.24-11.29.53:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.24-11.29.53:970][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.24-11.29.53:978][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.24-11.29.54:027][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Intermediate/Shaders/WorkingDirectory/13572/).
+[2020.12.24-11.29.54:027][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sam Swift/AppData/Local/Temp/UnrealShaderWorkingDir/4EB879B349A7CFA0322E358B4C1C4C3F/'.
+[2020.12.24-11.29.54:028][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.24-11.29.54:028][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.24-11.29.54:028][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.24-11.29.54:670][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.24-11.29.54:707][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/Sam Swift/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.24-11.29.54:707][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sam Swift/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.24-11.29.54:707][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.24-11.29.54:707][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.24-11.29.54:707][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.24-11.29.54:707][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.24-11.29.54:717][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.24-11.29.54:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.24-11.29.54:717][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.24-11.29.54:718][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sam Swift/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.24-11.29.54:718][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.24-11.29.54:718][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.24-11.29.54:764][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.24-11.29.54:765][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.24-11.29.54:785][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.12.24-11.29.54:991][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.24-11.29.55:085][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.24-11.29.55:085][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.24-11.29.55:085][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.24-11.29.55:085][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.24-11.29.55:085][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.24-11.29.55:098][  0]LogNetVersion: Covid_Aware_Project 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2632735844)
+[2020.12.24-11.29.55:456][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E27574D400), frame # 0
+[2020.12.24-11.29.55:456][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E27769AAC0), frame # 0
+[2020.12.24-11.29.55:457][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E2776DDE00), frame # 0
+[2020.12.24-11.29.55:552][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.088347 seconds
+[2020.12.24-11.29.55:557][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.12.24-11.29.55:557][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.12.24-11.29.55:557][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.24-11.29.55:842][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.24-11.29.55:847][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.24-11.29.55:910][  0]SourceControl: Source control is disabled
+[2020.12.24-11.29.55:910][  0]SourceControl: Source control is disabled
+[2020.12.24-11.29.55:912][  0]SourceControl: Source control is disabled
+[2020.12.24-11.29.55:915][  0]SourceControl: Source control is disabled
+[2020.12.24-11.29.55:920][  0]SourceControl: Source control is disabled
+[2020.12.24-11.29.55:931][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.24-11.29.55:932][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.24-11.29.56:115][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.24-11.29.56:131][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.24-11.29.56:131][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.24-11.29.56:173][  0]LogOcInput: OculusInput pre-init called
+[2020.12.24-11.29.56:182][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.24-11.29.56:182][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.24-11.29.56:238][  0]LogEngine: Initializing Engine...
+[2020.12.24-11.29.56:239][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2020.12.24-11.29.56:239][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.24-11.29.56:240][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.24-11.29.56:328][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.24-11.29.56:335][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.24-11.29.56:335][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E275FA4600), frame # 0
+[2020.12.24-11.29.56:335][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E275F7F100), frame # 0
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.29.56:344][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.29.56:344][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.29.56:345][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.29.56:345][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.29.56:352][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.29.56:352][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.29.56:385][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.29.56:385][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.29.56:387][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.29.56:387][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.29.56:388][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.29.56:389][  0]LogInit: FAudioDevice initialized.
+[2020.12.24-11.29.56:389][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.24-11.29.56:467][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/Sam Swift/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.24-11.29.56:471][  0]LogInit: Texture streaming: Enabled
+[2020.12.24-11.29.56:486][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.24-11.29.56:486][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.24-11.29.56:487][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.24-11.29.56:540][  0]LogInit: Transaction tracking system initialized
+[2020.12.24-11.29.56:559][  0]BlueprintLog: New page: Editor Load
+[2020.12.24-11.29.56:618][  0]LocalizationService: Localization service is disabled
+[2020.12.24-11.29.56:687][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.24-11.29.56:688][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.24-11.29.56:749][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.24-11.29.56:749][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.24-11.29.56:860][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/' took 0.01s
+[2020.12.24-11.29.57:010][  0]SourceControl: Source control is disabled
+[2020.12.24-11.29.57:010][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.653
+[2020.12.24-11.29.57:010][  0]Cmd: MAP LOAD FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Levels/BetaLevel_GameplayTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.24-11.29.57:010][  0]LightingResults: New page: Lighting Build
+[2020.12.24-11.29.57:011][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.29.57:011][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.29.57:011][  0]MapCheck: New page: Map Check
+[2020.12.24-11.29.57:011][  0]LightingResults: New page: Lighting Build
+[2020.12.24-11.29.57:023][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E275FA4600), frame # 0
+[2020.12.24-11.29.57:023][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E275F7F100), frame # 0
+[2020.12.24-11.29.57:024][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.12.24-11.29.57:096][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:097][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:097][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:097][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:718][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:718][  0]LoadErrors: Failed to load /Game/Buildings/NonFunction/None.Material_0 Referenced by Hospital
+[2020.12.24-11.29.57:718][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:718][  0]LoadErrors: Failed to load /Game/Buildings/NonFunction/None.Material_0 Referenced by Hospital
+[2020.12.24-11.29.57:719][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:719][  0]LoadErrors: Failed to load /Game/Buildings/NonFunction/None.Material_0 Referenced by Hospital
+[2020.12.24-11.29.57:719][  0]LogLinker: Warning: While loading 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Buildings/NonFunction/Hospital.uasset' failed to load '/Game/Buildings/NonFunction/None': Can't find file.
+[2020.12.24-11.29.57:719][  0]LoadErrors: Failed to load /Game/Buildings/NonFunction/None.Material_0 Referenced by Hospital
+[2020.12.24-11.29.58:026][  0]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.29.58:026][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E20FDF0E00), frame # 0
+[2020.12.24-11.29.58:026][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E20FDCBB00), frame # 0
+[2020.12.24-11.29.58:071][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.24-11.29.58:085][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.12.24-11.29.58:085][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.24-11.29.58:086][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.19ms to complete.
+[2020.12.24-11.29.58:086][  0]LogFileHelpers: Loading map 'BetaLevel_GameplayTest' took 1.076
+[2020.12.24-11.29.58:087][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.730
+[2020.12.24-11.29.58:422][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.29.58:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.29.58:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.29.58:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.29.58:505][  0]LogCollectionManager: Loaded 0 collections in 0.000834 seconds
+[2020.12.24-11.29.58:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/Collections/' took 0.00s
+[2020.12.24-11.29.58:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Developers/SamSwift/Collections/' took 0.00s
+[2020.12.24-11.29.58:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/Collections/' took 0.00s
+[2020.12.24-11.29.58:708][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3427 classes and 821 folders.
+[2020.12.24-11.29.58:770][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.24-11.30.00:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.24-11.30.00:238][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.12.24-11.30.00:772][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.24-11.30.00:784][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.24-11.30.00:813][  0]LogSlate: Took 0.018106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.24-11.30.01:113][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:1).
+[2020.12.24-11.30.01:349][  0]LogSlate: Took 0.011605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.24-11.30.01:417][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.12.24-11.30.01:417][  0]LogLoad: (Engine Initialization) Total time: 10.06 seconds
+[2020.12.24-11.30.01:417][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.24-11.30.01:491][  0]LogAssetRegistry: Asset discovery search completed in 6.7073 seconds
+[2020.12.24-11.30.01:494][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.12.24-11.30.01:503][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.24-11.30.01:642][  0]LogSlate: Took 0.031283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.24-11.30.05:458][ 12]LogSlate: Window 'Message Log' being destroyed
+[2020.12.24-11.30.05:461][ 12]LogSlate: Window 'Message Log' being destroyed
+[2020.12.24-11.30.06:295][109]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.30.06:312][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.30.06:393][109]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:30:06)
+[2020.12.24-11.30.06:399][109]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.24-11.30.06:412][109]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.24-11.30.06:412][109]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.30.06:419][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006941s)
+[2020.12.24-11.30.06:420][109]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.30.06:420][109]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E219C9A000), frame # 109
+[2020.12.24-11.30.06:420][109]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E20F582840), frame # 109
+[2020.12.24-11.30.06:420][109]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2020.12.24-11.30.06:420][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.008152s)
+[2020.12.24-11.30.06:433][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.30.06:436][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.30.06:436][109]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.30.06:436][109]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.30.06:439][109]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.30.06:439][109]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.30.06:449][109]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.30.06:449][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.30.06:449][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.30.06:449][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.30.06:449][109]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.30.06:459][109]LogInit: FAudioDevice initialized.
+[2020.12.24-11.30.06:463][109]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.30.06:483][109]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.30.06
+[2020.12.24-11.30.06:483][109]LogWorld: Bringing up level for play took: 0.002088
+[2020.12.24-11.30.06:484][109]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.12.24-11.30.06:496][109]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.12.24-11.30.06:585][109]PIE: Server logged in
+[2020.12.24-11.30.06:586][109]PIE: Play in editor total start time 0.275 seconds.
+[2020.12.24-11.30.06:587][109]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.30.13:566][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.30.13:566][936]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.30.13:566][936]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.30.13:566][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.30.13:573][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.30.13:574][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.30.13:595][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.30.13:596][936]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E20F582840), frame # 936
+[2020.12.24-11.30.13:596][936]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E219C9A000), frame # 936
+[2020.12.24-11.30.13:597][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.12.24-11.30.13:654][938]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.12.24-11.30.19:588][638]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.24-11.30.19:597][638]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.30.20:796][638]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.12.24-11.30.22:482][638]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.24-11.32.09:336][478]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.32.09:435][478]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.12.24-11.32.09:520][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.32.09:841][478]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD4BFDF6F341FD1729DAF145B659506FB2.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.32.09:853][478]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.32.09:853][478]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.32.11:039][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.32.11:172][587]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD76E1667D480DC04AD2E3A1A05509E375.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.32.11:184][587]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.32.11:184][587]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.32.12:065][669]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.32.12:084][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.32.12:084][669]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:32:12)
+[2020.12.24-11.32.12:084][669]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.32.12:090][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006628s)
+[2020.12.24-11.32.12:091][669]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.32.12:091][669]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E28C9D4600), frame # 12669
+[2020.12.24-11.32.12:091][669]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E2876DC7C0), frame # 12669
+[2020.12.24-11.32.12:091][669]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2020.12.24-11.32.12:091][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007544s)
+[2020.12.24-11.32.12:115][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.32.12:116][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.32.12:117][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.32.12:117][669]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.32.12:117][669]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.32.12:119][669]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.32.12:119][669]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.32.12:131][669]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.32.12:131][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.32.12:131][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.32.12:131][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.32.12:132][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.32.12:141][669]LogInit: FAudioDevice initialized.
+[2020.12.24-11.32.12:147][669]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.32.12:149][669]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.32.12
+[2020.12.24-11.32.12:149][669]LogWorld: Bringing up level for play took: 0.001878
+[2020.12.24-11.32.12:149][669]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.12.24-11.32.12:158][669]PIE: Server logged in
+[2020.12.24-11.32.12:158][669]PIE: Play in editor total start time 0.075 seconds.
+[2020.12.24-11.32.12:159][669]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.32.33:515][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.32.33:515][809]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.32.33:515][809]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.32.33:516][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.32.33:522][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.32.33:527][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.32.33:559][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.32.33:559][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E2876DC7C0), frame # 14809
+[2020.12.24-11.32.33:559][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E28C9D4600), frame # 14809
+[2020.12.24-11.32.33:562][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.12.24-11.32.33:596][810]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.12.24-11.32.50:946][458]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.32.50:964][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.32.50:964][458]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:32:50)
+[2020.12.24-11.32.50:984][458]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.32.50:991][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006469s)
+[2020.12.24-11.32.50:992][458]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.32.50:992][458]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E22D60D600), frame # 16458
+[2020.12.24-11.32.50:992][458]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E2876DE700), frame # 16458
+[2020.12.24-11.32.50:992][458]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2020.12.24-11.32.50:992][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007409s)
+[2020.12.24-11.32.51:013][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.32.51:015][458]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.32.51:016][458]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.32.51:016][458]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.32.51:016][458]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.32.51:018][458]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.32.51:018][458]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.32.51:028][458]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.32.51:029][458]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.32.51:029][458]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.32.51:029][458]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.32.51:029][458]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.32.51:038][458]LogInit: FAudioDevice initialized.
+[2020.12.24-11.32.51:044][458]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.32.51:046][458]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.32.51
+[2020.12.24-11.32.51:046][458]LogWorld: Bringing up level for play took: 0.002177
+[2020.12.24-11.32.51:046][458]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.12.24-11.32.51:055][458]PIE: Server logged in
+[2020.12.24-11.32.51:055][458]PIE: Play in editor total start time 0.092 seconds.
+[2020.12.24-11.32.51:056][458]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.32.55:475][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.32.55:475][890]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.32.55:475][890]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.32.55:476][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.32.55:481][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.32.55:486][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.32.55:505][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.32.55:518][890]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E2876DE700), frame # 16890
+[2020.12.24-11.32.55:518][890]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E22D60D600), frame # 16890
+[2020.12.24-11.32.55:520][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.12.24-11.32.55:553][891]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.12.24-11.33.07:279][999]LogSlate: Took 0.015581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.24-11.33.56:080][192]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.33.56:147][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.12.24-11.33.56:212][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.33.56:347][192]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUDA81554DE4405ECFD8F7B8683315425AD.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.33.56:357][192]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.33.56:357][192]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.33.59:210][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.33.59:349][464]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD3B53094C43B1A9B3AEEA57A194EE744A.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.33.59:361][464]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.33.59:361][464]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.34.00:507][570]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.34.00:525][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.34.00:525][570]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:34:00)
+[2020.12.24-11.34.00:574][570]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.34.00:580][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006422s)
+[2020.12.24-11.34.00:581][570]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.34.00:581][570]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E26D0CFC00), frame # 23570
+[2020.12.24-11.34.00:581][570]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E28C1025C0), frame # 23570
+[2020.12.24-11.34.00:581][570]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2020.12.24-11.34.00:581][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007432s)
+[2020.12.24-11.34.00:606][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.34.00:608][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.34.00:608][570]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.34.00:608][570]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.34.00:610][570]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.34.00:610][570]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.34.00:622][570]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.34.00:622][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.34.00:622][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.34.00:622][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.34.00:623][570]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.34.00:632][570]LogInit: FAudioDevice initialized.
+[2020.12.24-11.34.00:641][570]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.34.00:643][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.34.00
+[2020.12.24-11.34.00:643][570]LogWorld: Bringing up level for play took: 0.002073
+[2020.12.24-11.34.00:643][570]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.12.24-11.34.00:652][570]PIE: Server logged in
+[2020.12.24-11.34.00:652][570]PIE: Play in editor total start time 0.128 seconds.
+[2020.12.24-11.34.00:653][570]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.34.10:485][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.34.10:485][518]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.34.10:486][518]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.34.10:486][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.34.10:489][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.34.10:493][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.34.10:524][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.34.10:525][518]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E28C1025C0), frame # 24518
+[2020.12.24-11.34.10:525][518]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E26D0CFC00), frame # 24518
+[2020.12.24-11.34.10:528][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.12.24-11.34.10:562][519]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.12.24-11.34.26:780][131]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.34.26:845][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.12.24-11.34.26:877][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.34.27:014][131]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD53570F0D4495293A8B4857BCE523C1B3.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.34.27:024][131]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.34.27:024][131]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.34.27:231][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.34.27:367][152]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD9F4B14FB43CF6F0D2FAC05B6828B70D2.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.34.27:377][152]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.34.27:377][152]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.34.29:624][413]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.34.29:642][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.34.29:642][413]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:34:29)
+[2020.12.24-11.34.29:664][413]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.34.29:671][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006249s)
+[2020.12.24-11.34.29:671][413]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.34.29:671][413]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E283B4E200), frame # 26413
+[2020.12.24-11.34.29:672][413]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E22B522AC0), frame # 26413
+[2020.12.24-11.34.29:672][413]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2020.12.24-11.34.29:672][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007218s)
+[2020.12.24-11.34.29:696][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.34.29:697][413]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.34.29:697][413]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.34.29:697][413]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.34.29:700][413]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.34.29:700][413]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.34.29:710][413]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.34.29:710][413]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.34.29:710][413]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.34.29:710][413]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.34.29:711][413]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.34.29:720][413]LogInit: FAudioDevice initialized.
+[2020.12.24-11.34.29:727][413]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.34.29:729][413]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.34.29
+[2020.12.24-11.34.29:730][413]LogWorld: Bringing up level for play took: 0.001972
+[2020.12.24-11.34.29:730][413]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.12.24-11.34.29:738][413]PIE: Server logged in
+[2020.12.24-11.34.29:739][413]PIE: Play in editor total start time 0.097 seconds.
+[2020.12.24-11.34.29:739][413]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.34.40:085][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.34.40:085][648]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.34.40:085][648]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.34.40:086][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.34.40:089][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.34.40:093][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.34.40:125][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.34.40:126][648]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E22B522AC0), frame # 27648
+[2020.12.24-11.34.40:126][648]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E283B4E200), frame # 27648
+[2020.12.24-11.34.40:129][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.12.24-11.34.40:160][649]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.12.24-11.34.46:042][245]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.34.46:106][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.12.24-11.34.46:167][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.34.46:307][245]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD3044C0A1400DF285B26DEF8589965729.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.34.46:318][245]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.34.46:319][245]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.35.13:753][338]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.35.13:818][338]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.12.24-11.35.13:876][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.35.14:013][338]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD72DA18464D01DC34D28D4CA51359365A.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.35.14:025][338]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.35.14:025][338]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.35.15:120][450]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.35.15:137][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.35.15:137][450]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:35:15)
+[2020.12.24-11.35.15:137][450]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.35.15:143][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006086s)
+[2020.12.24-11.35.15:144][450]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.35.15:144][450]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E223F0FE00), frame # 31450
+[2020.12.24-11.35.15:144][450]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E26D1BAD40), frame # 31450
+[2020.12.24-11.35.15:144][450]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2020.12.24-11.35.15:144][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.006985s)
+[2020.12.24-11.35.15:168][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.35.15:169][450]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.35.15:169][450]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.35.15:170][450]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.35.15:170][450]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.35.15:172][450]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.35.15:172][450]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.35.15:183][450]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.35.15:183][450]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.35.15:183][450]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.35.15:183][450]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.35.15:183][450]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.35.15:193][450]LogInit: FAudioDevice initialized.
+[2020.12.24-11.35.15:199][450]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.35.15:201][450]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.35.15
+[2020.12.24-11.35.15:201][450]LogWorld: Bringing up level for play took: 0.002001
+[2020.12.24-11.35.15:201][450]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.12.24-11.35.15:210][450]PIE: Server logged in
+[2020.12.24-11.35.15:211][450]PIE: Play in editor total start time 0.074 seconds.
+[2020.12.24-11.35.15:211][450]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.35.52:035][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.35.52:035][859]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.35.52:035][859]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.35.52:036][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.35.52:040][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.35.52:045][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.35.52:077][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.35.52:078][859]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E26D1BAD40), frame # 35859
+[2020.12.24-11.35.52:078][859]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E223F0FE00), frame # 35859
+[2020.12.24-11.35.52:081][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.12.24-11.35.52:137][861]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.12.24-11.36.37:766][927]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.36.37:836][927]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.12.24-11.36.37:924][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.36.38:064][927]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD146778E944EE591A11DF8C95073F8391.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.36.38:076][927]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.36.38:076][927]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.36.38:547][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.36.38:682][965]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD061DC8664E66C0CBE07C92AA75767972.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.36.38:693][965]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.36.38:693][965]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.37.02:360][574]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.37.02:427][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.12.24-11.37.02:484][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.37.02:620][574]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD928C6994447327B13A464FAE176434EF.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.37.02:632][574]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.37.02:633][574]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.37.03:269][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.37.03:407][631]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD1F37ECEF45BA6D76D9E0F38DA5852FE4.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.37.03:420][631]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.37.03:420][631]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.37.04:894][797]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.37.04:911][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.37.04:911][797]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:37:04)
+[2020.12.24-11.37.04:934][797]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.37.04:940][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006422s)
+[2020.12.24-11.37.04:941][797]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.37.04:941][797]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E290E73E00), frame # 42797
+[2020.12.24-11.37.04:941][797]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E29575D440), frame # 42797
+[2020.12.24-11.37.04:941][797]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2020.12.24-11.37.04:941][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007362s)
+[2020.12.24-11.37.04:965][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.37.04:966][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.37.04:966][797]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.37.04:966][797]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.37.04:969][797]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.37.04:969][797]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.37.04:981][797]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.37.04:981][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.37.04:981][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.37.04:981][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.37.04:981][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.37.04:991][797]LogInit: FAudioDevice initialized.
+[2020.12.24-11.37.04:998][797]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.37.05:000][797]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.37.05
+[2020.12.24-11.37.05:000][797]LogWorld: Bringing up level for play took: 0.001914
+[2020.12.24-11.37.05:000][797]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.12.24-11.37.05:009][797]PIE: Server logged in
+[2020.12.24-11.37.05:009][797]PIE: Play in editor total start time 0.099 seconds.
+[2020.12.24-11.37.05:010][797]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.37.26:625][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.37.26:625][377]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.37.26:625][377]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.37.26:626][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.37.26:634][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.37.26:638][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.37.26:670][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.37.26:671][377]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E29575D440), frame # 45377
+[2020.12.24-11.37.26:671][377]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E290E73E00), frame # 45377
+[2020.12.24-11.37.26:674][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.12.24-11.37.26:707][378]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.12.24-11.37.39:460][341]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.37.39:528][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.12.24-11.37.39:610][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.37.39:753][341]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUDF3FD68C04B14C1F8C9E512A5BFB385CF.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.37.39:766][341]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.37.39:766][341]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.37.40:081][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.37.40:217][364]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD41A417874928E0DCA19DF48C6BA360A2.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.37.40:228][364]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.37.40:228][364]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.37.41:445][471]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.37.41:462][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.37.41:462][471]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:37:41)
+[2020.12.24-11.37.41:462][471]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.37.41:469][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006468s)
+[2020.12.24-11.37.41:469][471]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.37.41:469][471]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E2919AEC00), frame # 46471
+[2020.12.24-11.37.41:469][471]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E282722AC0), frame # 46471
+[2020.12.24-11.37.41:470][471]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2020.12.24-11.37.41:470][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007574s)
+[2020.12.24-11.37.41:493][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.37.41:494][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.37.41:494][471]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.37.41:494][471]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.37.41:497][471]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.37.41:497][471]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.37.41:507][471]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.37.41:507][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.37.41:507][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.37.41:507][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.37.41:508][471]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.37.41:518][471]LogInit: FAudioDevice initialized.
+[2020.12.24-11.37.41:524][471]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.37.41:526][471]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.37.41
+[2020.12.24-11.37.41:526][471]LogWorld: Bringing up level for play took: 0.002032
+[2020.12.24-11.37.41:527][471]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.12.24-11.37.41:535][471]PIE: Server logged in
+[2020.12.24-11.37.41:536][471]PIE: Play in editor total start time 0.075 seconds.
+[2020.12.24-11.37.41:536][471]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.37.51:095][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.37.51:095][370]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.37.51:095][370]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.37.51:096][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.37.51:100][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.37.51:104][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.37.51:136][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.37.51:137][370]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E282722AC0), frame # 47370
+[2020.12.24-11.37.51:137][370]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E2919AEC00), frame # 47370
+[2020.12.24-11.37.51:140][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.12.24-11.37.51:174][371]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.12.24-11.38.04:674][627]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.38.04:739][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.12.24-11.38.04:824][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.38.04:962][627]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD840488644C4CB5CA46DF8191FCBF8652.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.38.04:973][627]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.38.04:973][627]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.38.05:109][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.38.05:247][635]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD5490A1C245745EBB7A7B0495DA863B02.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.38.05:260][635]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.38.05:260][635]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.38.06:529][746]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.38.06:547][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.38.06:547][746]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:38:06)
+[2020.12.24-11.38.06:584][746]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.38.06:591][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006388s)
+[2020.12.24-11.38.06:591][746]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.38.06:591][746]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E219AC9000), frame # 48746
+[2020.12.24-11.38.06:591][746]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E28BB84E00), frame # 48746
+[2020.12.24-11.38.06:592][746]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2020.12.24-11.38.06:592][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007331s)
+[2020.12.24-11.38.06:616][746]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.38.06:617][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.38.06:617][746]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.38.06:617][746]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.38.06:620][746]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.38.06:620][746]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.38.06:630][746]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.38.06:630][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.38.06:630][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.38.06:630][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.38.06:631][746]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.38.06:639][746]LogInit: FAudioDevice initialized.
+[2020.12.24-11.38.06:644][746]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.38.06:646][746]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.38.06
+[2020.12.24-11.38.06:646][746]LogWorld: Bringing up level for play took: 0.002175
+[2020.12.24-11.38.06:646][746]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.12.24-11.38.06:655][746]PIE: Server logged in
+[2020.12.24-11.38.06:655][746]PIE: Play in editor total start time 0.109 seconds.
+[2020.12.24-11.38.06:656][746]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.38.47:384][572]LogBlueprintUserMessages: [RTSGamestate_C_0] 17
+[2020.12.24-11.39.03:555][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.39.03:555][ 94]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.39.03:555][ 94]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.39.03:556][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.39.03:564][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.39.03:568][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.39.03:600][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.39.03:600][ 94]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E28BB84E00), frame # 54094
+[2020.12.24-11.39.03:600][ 94]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E219AC9000), frame # 54094
+[2020.12.24-11.39.03:603][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.12.24-11.39.03:639][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.12.24-11.39.14:730][121]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.39.14:795][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.12.24-11.39.14:857][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.39.14:993][121]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD05BB7A0642C9E54779C47A8B68128A2A.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.39.15:004][121]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.39.15:004][121]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.39.15:315][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.39.15:450][144]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD22E22722403D1C9D2CB3DE9E5517D161.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.39.15:460][144]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.39.15:460][144]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.40.00:821][895]LogEditorTransaction: Undo Paste clipboard contents
+[2020.12.24-11.40.06:293][378]LogEditorTransaction: Undo Paste clipboard contents
+[2020.12.24-11.41.06:802][951]LogEditorTransaction: Undo Paste clipboard contents
+[2020.12.24-11.43.30:085][805]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.24-11.44.06:180][135]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.24-11.44.23:102][678]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.24-11.44.32:432][487]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.24-11.44.42:189][340]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.24-11.44.44:282][527]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.44.44:374][527]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.12.24-11.44.44:462][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.44.44:605][527]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD3CF8F6A54C76C80C2EF340BFAAC0CCF5.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.44.44:616][527]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.44.44:616][527]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.44.44:969][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.44.45:104][553]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD096E4CC141A0C2DB0DFE999D6093689F.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.44.45:117][553]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.44.45:117][553]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.44.47:050][728]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.24-11.44.47:068][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.24-11.44.47:068][728]PIE: New page: PIE session: BetaLevel_GameplayTest (24 Dec 2020, 11:44:47)
+[2020.12.24-11.44.47:068][728]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.44.47:075][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006769s)
+[2020.12.24-11.44.47:075][728]LogAIModule: Creating AISystem for world BetaLevel_GameplayTest
+[2020.12.24-11.44.47:075][728]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E283DC6200), frame # 85728
+[2020.12.24-11.44.47:075][728]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E22C3791C0), frame # 85728
+[2020.12.24-11.44.47:076][728]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2020.12.24-11.44.47:076][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BetaLevel_GameplayTest.BetaLevel_GameplayTest to /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest (0.007772s)
+[2020.12.24-11.44.47:100][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.24-11.44.47:101][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.24-11.44.47:101][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.24-11.44.47:102][728]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.24-11.44.47:102][728]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.24-11.44.47:105][728]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.24-11.44.47:105][728]LogAudioMixer: Display: 1: FrontRight
+[2020.12.24-11.44.47:117][728]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.24-11.44.47:117][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.24-11.44.47:117][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.24-11.44.47:117][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.24-11.44.47:118][728]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.24-11.44.47:127][728]LogInit: FAudioDevice initialized.
+[2020.12.24-11.44.47:131][728]LogLoad: Game class is 'RTSGamemode_C'
+[2020.12.24-11.44.47:134][728]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest.BetaLevel_GameplayTest up for play (max tick rate 0) at 2020.12.24-11.44.47
+[2020.12.24-11.44.47:134][728]LogWorld: Bringing up level for play took: 0.002151
+[2020.12.24-11.44.47:134][728]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.12.24-11.44.47:143][728]PIE: Server logged in
+[2020.12.24-11.44.47:144][728]PIE: Play in editor total start time 0.077 seconds.
+[2020.12.24-11.44.47:145][728]LogBlueprintUserMessages: [RTSGamestate_C_0] 5
+[2020.12.24-11.45.26:235][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.45.26:235][373]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_BetaLevel_GameplayTest
+[2020.12.24-11.45.26:235][373]LogWorld: UWorld::CleanupWorld for BetaLevel_GameplayTest, bSessionEnded=true, bCleanupResources=true
+[2020.12.24-11.45.26:236][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.45.26:240][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.24-11.45.26:244][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.24-11.45.26:277][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.24-11.45.26:278][373]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E22C3791C0), frame # 89373
+[2020.12.24-11.45.26:278][373]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E283DC6200), frame # 89373
+[2020.12.24-11.45.26:281][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.12.24-11.45.26:316][374]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.12.24-11.46.55:845][370]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Sam Swift\Desktop\lockdown-tier-1.png)
+[2020.12.24-11.46.55:901][370]LogTexture: Display: Building textures: lockdown-tier-1 (AutoDXT, 1080X1080)
+[2020.12.24-11.47.39:862][178]BlueprintLog: New page: Compile MainUI_HUD
+[2020.12.24-11.47.39:939][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.12.24-11.47.40:029][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.47.40:169][178]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUDB9B33B4849DBB401D80340A741CAEE83.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.47.40:182][178]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.47.40:182][178]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.47.40:396][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/BluePrints/MainUI_HUD" FILE="C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset" SILENT=true
+[2020.12.24-11.47.40:533][192]LogSavePackage: Moving 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Saved/MainUI_HUD8796184F42BC8CF506D405B0D7A6206F.tmp' to 'C:/Users/Sam Swift/Documents/GitHub/Everyware/Covid_Aware_Project/Content/HUDS/BluePrints/MainUI_HUD.uasset'
+[2020.12.24-11.47.40:545][192]AssetCheck: New page: Asset Save: MainUI_HUD
+[2020.12.24-11.47.40:545][192]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUDS/BluePrints/MainUI_HUD.MainUI_HUD
+[2020.12.24-11.48.24:374][ 14]LogEditorTransaction: Undo Nudge Widget
+[2020.12.24-11.48.25:929][124]LogEditorTransaction: Undo Nudge Widget
+[2020.12.24-11.48.26:222][145]LogEditorTransaction: Undo Nudge Widget
+[2020.12.24-11.48.28:520][322]LogRHI: Error: Present Fail Count 1
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SyncInterval 0
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.Width 98
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.Height 18
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000030BCA
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.12.24-11.48.28:520][322]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.12.24-11.48.28:538][322]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2020.12.24-11.48.28:538][322]LogD3D11RHI: [Aftermath] GDynamicRHI=000001E2584A00C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.12.24-11.48.28:538][322]LogWindows: Windows GetLastError: The operation completed successfully. (0)
